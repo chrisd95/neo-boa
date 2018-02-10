@@ -7,7 +7,7 @@ Test Command:
     build [FILE_PATH] test 0710 05 False False concat ['lorem','ipsum']
 Example Executions:
     testinvoke [CONTRACT_HASH] concat ['lorem','ipsum']
-    testinvoke [CONTRACT_HASH] concat ['cloud',9']
+    testinvoke [CONTRACT_HASH] concat ['cloud','9']
     testinvoke [CONTRACT_HASH] concat ['text',b'1010']
 Invalid Examples:
     testinvoke [CONTRACT_HASH] concat [true,false]
